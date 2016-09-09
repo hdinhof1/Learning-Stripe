@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2DBAD91D82477D00F143F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */; };
+		BA2DBADB1D82477D00F143F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBADA1D82477D00F143F9 /* ViewController.swift */; };
+		BA2DBADE1D82477D00F143F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2DBADC1D82477D00F143F9 /* Main.storyboard */; };
+		BA2DBAE11D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBADF1D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld */; };
+		BA2DBAE31D82477D00F143F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2DBAE21D82477D00F143F9 /* Assets.xcassets */; };
+		BA2DBAE61D82477D00F143F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2DBAE41D82477D00F143F9 /* LaunchScreen.storyboard */; };
+		BA2DBAF11D82477D00F143F9 /* Learning_Stripe_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAF01D82477D00F143F9 /* Learning_Stripe_SDKTests.swift */; };
+		BA2DBAFC1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAFB1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2DBAED1D82477D00F143F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2DBACD1D82477D00F143F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2DBAD41D82477D00F143F9;
+			remoteInfo = "Learning Stripe SDK";
+		};
+		BA2DBAF81D82477D00F143F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2DBACD1D82477D00F143F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2DBAD41D82477D00F143F9;
+			remoteInfo = "Learning Stripe SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2DBAD51D82477D00F143F9 /* Learning Stripe SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Stripe SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA2DBADA1D82477D00F143F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA2DBADD1D82477D00F143F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2DBAE01D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learning_Stripe_SDK.xcdatamodel; sourceTree = "<group>"; };
+		BA2DBAE21D82477D00F143F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2DBAE51D82477D00F143F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA2DBAE71D82477D00F143F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2DBAEC1D82477D00F143F9 /* Learning Stripe SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Stripe SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DBAF01D82477D00F143F9 /* Learning_Stripe_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Stripe_SDKTests.swift; sourceTree = "<group>"; };
+		BA2DBAF21D82477D00F143F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2DBAF71D82477D00F143F9 /* Learning Stripe SDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Stripe SDKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DBAFB1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Stripe_SDKUITests.swift; sourceTree = "<group>"; };
+		BA2DBAFD1D82477D00F143F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2DBAD21D82477D00F143F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAE91D82477D00F143F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAF41D82477D00F143F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2DBACC1D82477D00F143F9 = {
+			isa = PBXGroup;
+			children = (
+				BA2DBAD71D82477D00F143F9 /* Learning Stripe SDK */,
+				BA2DBAEF1D82477D00F143F9 /* Learning Stripe SDKTests */,
+				BA2DBAFA1D82477D00F143F9 /* Learning Stripe SDKUITests */,
+				BA2DBAD61D82477D00F143F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2DBAD61D82477D00F143F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DBAD51D82477D00F143F9 /* Learning Stripe SDK.app */,
+				BA2DBAEC1D82477D00F143F9 /* Learning Stripe SDKTests.xctest */,
+				BA2DBAF71D82477D00F143F9 /* Learning Stripe SDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2DBAD71D82477D00F143F9 /* Learning Stripe SDK */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */,
+				BA2DBADA1D82477D00F143F9 /* ViewController.swift */,
+				BA2DBADC1D82477D00F143F9 /* Main.storyboard */,
+				BA2DBAE21D82477D00F143F9 /* Assets.xcassets */,
+				BA2DBAE41D82477D00F143F9 /* LaunchScreen.storyboard */,
+				BA2DBAE71D82477D00F143F9 /* Info.plist */,
+				BA2DBADF1D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld */,
+			);
+			path = "Learning Stripe SDK";
+			sourceTree = "<group>";
+		};
+		BA2DBAEF1D82477D00F143F9 /* Learning Stripe SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DBAF01D82477D00F143F9 /* Learning_Stripe_SDKTests.swift */,
+				BA2DBAF21D82477D00F143F9 /* Info.plist */,
+			);
+			path = "Learning Stripe SDKTests";
+			sourceTree = "<group>";
+		};
+		BA2DBAFA1D82477D00F143F9 /* Learning Stripe SDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DBAFB1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift */,
+				BA2DBAFD1D82477D00F143F9 /* Info.plist */,
+			);
+			path = "Learning Stripe SDKUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2DBAD41D82477D00F143F9 /* Learning Stripe SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2DBB001D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDK" */;
+			buildPhases = (
+				BA2DBAD11D82477D00F143F9 /* Sources */,
+				BA2DBAD21D82477D00F143F9 /* Frameworks */,
+				BA2DBAD31D82477D00F143F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning Stripe SDK";
+			productName = "Learning Stripe SDK";
+			productReference = BA2DBAD51D82477D00F143F9 /* Learning Stripe SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2DBAEB1D82477D00F143F9 /* Learning Stripe SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2DBB031D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKTests" */;
+			buildPhases = (
+				BA2DBAE81D82477D00F143F9 /* Sources */,
+				BA2DBAE91D82477D00F143F9 /* Frameworks */,
+				BA2DBAEA1D82477D00F143F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2DBAEE1D82477D00F143F9 /* PBXTargetDependency */,
+			);
+			name = "Learning Stripe SDKTests";
+			productName = "Learning Stripe SDKTests";
+			productReference = BA2DBAEC1D82477D00F143F9 /* Learning Stripe SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA2DBAF61D82477D00F143F9 /* Learning Stripe SDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2DBB061D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKUITests" */;
+			buildPhases = (
+				BA2DBAF31D82477D00F143F9 /* Sources */,
+				BA2DBAF41D82477D00F143F9 /* Frameworks */,
+				BA2DBAF51D82477D00F143F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2DBAF91D82477D00F143F9 /* PBXTargetDependency */,
+			);
+			name = "Learning Stripe SDKUITests";
+			productName = "Learning Stripe SDKUITests";
+			productReference = BA2DBAF71D82477D00F143F9 /* Learning Stripe SDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2DBACD1D82477D00F143F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Dinhofer";
+				TargetAttributes = {
+					BA2DBAD41D82477D00F143F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA2DBAEB1D82477D00F143F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA2DBAD41D82477D00F143F9;
+					};
+					BA2DBAF61D82477D00F143F9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA2DBAD41D82477D00F143F9;
+					};
+				};
+			};
+			buildConfigurationList = BA2DBAD01D82477D00F143F9 /* Build configuration list for PBXProject "Learning Stripe SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2DBACC1D82477D00F143F9;
+			productRefGroup = BA2DBAD61D82477D00F143F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2DBAD41D82477D00F143F9 /* Learning Stripe SDK */,
+				BA2DBAEB1D82477D00F143F9 /* Learning Stripe SDKTests */,
+				BA2DBAF61D82477D00F143F9 /* Learning Stripe SDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2DBAD31D82477D00F143F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DBAE61D82477D00F143F9 /* LaunchScreen.storyboard in Resources */,
+				BA2DBAE31D82477D00F143F9 /* Assets.xcassets in Resources */,
+				BA2DBADE1D82477D00F143F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAEA1D82477D00F143F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAF51D82477D00F143F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2DBAD11D82477D00F143F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DBADB1D82477D00F143F9 /* ViewController.swift in Sources */,
+				BA2DBAE11D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld in Sources */,
+				BA2DBAD91D82477D00F143F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAE81D82477D00F143F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DBAF11D82477D00F143F9 /* Learning_Stripe_SDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DBAF31D82477D00F143F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DBAFC1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2DBAEE1D82477D00F143F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2DBAD41D82477D00F143F9 /* Learning Stripe SDK */;
+			targetProxy = BA2DBAED1D82477D00F143F9 /* PBXContainerItemProxy */;
+		};
+		BA2DBAF91D82477D00F143F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2DBAD41D82477D00F143F9 /* Learning Stripe SDK */;
+			targetProxy = BA2DBAF81D82477D00F143F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2DBADC1D82477D00F143F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2DBADD1D82477D00F143F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2DBAE41D82477D00F143F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2DBAE51D82477D00F143F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2DBAFE1D82477D00F143F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2DBAFF1D82477D00F143F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2DBB011D82477D00F143F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learning Stripe SDK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA2DBB021D82477D00F143F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Learning Stripe SDK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA2DBB041D82477D00F143F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learning Stripe SDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Stripe SDK.app/Learning Stripe SDK";
+			};
+			name = Debug;
+		};
+		BA2DBB051D82477D00F143F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Learning Stripe SDKTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learning Stripe SDK.app/Learning Stripe SDK";
+			};
+			name = Release;
+		};
+		BA2DBB071D82477D00F143F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Learning Stripe SDKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Learning Stripe SDK";
+			};
+			name = Debug;
+		};
+		BA2DBB081D82477D00F143F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Learning Stripe SDKUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HLD.Learning-Stripe-SDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Learning Stripe SDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2DBAD01D82477D00F143F9 /* Build configuration list for PBXProject "Learning Stripe SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DBAFE1D82477D00F143F9 /* Debug */,
+				BA2DBAFF1D82477D00F143F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2DBB001D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DBB011D82477D00F143F9 /* Debug */,
+				BA2DBB021D82477D00F143F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA2DBB031D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DBB041D82477D00F143F9 /* Debug */,
+				BA2DBB051D82477D00F143F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA2DBB061D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DBB071D82477D00F143F9 /* Debug */,
+				BA2DBB081D82477D00F143F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA2DBADF1D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA2DBAE01D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodel */,
+			);
+			currentVersion = BA2DBAE01D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodel */;
+			path = Learning_Stripe_SDK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA2DBACD1D82477D00F143F9 /* Project object */;
+}
