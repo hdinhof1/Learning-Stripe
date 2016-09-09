@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E6422BB60087139082F870C /* Pods_Learning_Stripe_SDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F14F62963E622043A4D8C22 /* Pods_Learning_Stripe_SDKTests.framework */; };
+		3EDF9ADCAF7D9030295DD634 /* Pods_Learning_Stripe_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964698E159347A49F3C49E43 /* Pods_Learning_Stripe_SDK.framework */; };
+		9B27E8C221EB21ABB883054A /* Pods_Learning_Stripe_SDKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE663E44D4B9192C24465F9 /* Pods_Learning_Stripe_SDKUITests.framework */; };
 		BA2DBAD91D82477D00F143F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */; };
 		BA2DBADB1D82477D00F143F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBADA1D82477D00F143F9 /* ViewController.swift */; };
 		BA2DBADE1D82477D00F143F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2DBADC1D82477D00F143F9 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		BA2DBAE61D82477D00F143F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2DBAE41D82477D00F143F9 /* LaunchScreen.storyboard */; };
 		BA2DBAF11D82477D00F143F9 /* Learning_Stripe_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAF01D82477D00F143F9 /* Learning_Stripe_SDKTests.swift */; };
 		BA2DBAFC1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBAFB1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift */; };
+		BA2DBB0C1D82544F00F143F9 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DBB0B1D82544F00F143F9 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1139CB313DAEECE62783F898 /* Pods-Learning Stripe SDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDKUITests/Pods-Learning Stripe SDKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3613F3AB655C261007826416 /* Pods-Learning Stripe SDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDKTests/Pods-Learning Stripe SDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AE663E44D4B9192C24465F9 /* Pods_Learning_Stripe_SDKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_Stripe_SDKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14F62963E622043A4D8C22 /* Pods_Learning_Stripe_SDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_Stripe_SDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EF470698AA1AA1B79E294A /* Pods-Learning Stripe SDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDKUITests/Pods-Learning Stripe SDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		964698E159347A49F3C49E43 /* Pods_Learning_Stripe_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learning_Stripe_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A3D8F77F96BA1AA8CD235C /* Pods-Learning Stripe SDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDKTests/Pods-Learning Stripe SDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		A34416AFED10447F3EA3069D /* Pods-Learning Stripe SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDK/Pods-Learning Stripe SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2DBAD51D82477D00F143F9 /* Learning Stripe SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Stripe SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA2DBADA1D82477D00F143F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		BA2DBAF71D82477D00F143F9 /* Learning Stripe SDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning Stripe SDKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2DBAFB1D82477D00F143F9 /* Learning_Stripe_SDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_Stripe_SDKUITests.swift; sourceTree = "<group>"; };
 		BA2DBAFD1D82477D00F143F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2DBB0B1D82544F00F143F9 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		FBA5FE5EA63E30896C379FA8 /* Pods-Learning Stripe SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learning Stripe SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-Learning Stripe SDK/Pods-Learning Stripe SDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDF9ADCAF7D9030295DD634 /* Pods_Learning_Stripe_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6422BB60087139082F870C /* Pods_Learning_Stripe_SDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B27E8C221EB21ABB883054A /* Pods_Learning_Stripe_SDKUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14E9142A2D1ECA824992CDD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				964698E159347A49F3C49E43 /* Pods_Learning_Stripe_SDK.framework */,
+				7F14F62963E622043A4D8C22 /* Pods_Learning_Stripe_SDKTests.framework */,
+				4AE663E44D4B9192C24465F9 /* Pods_Learning_Stripe_SDKUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6232FBED57A4C44E98EB6B2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A34416AFED10447F3EA3069D /* Pods-Learning Stripe SDK.debug.xcconfig */,
+				FBA5FE5EA63E30896C379FA8 /* Pods-Learning Stripe SDK.release.xcconfig */,
+				3613F3AB655C261007826416 /* Pods-Learning Stripe SDKTests.debug.xcconfig */,
+				98A3D8F77F96BA1AA8CD235C /* Pods-Learning Stripe SDKTests.release.xcconfig */,
+				94EF470698AA1AA1B79E294A /* Pods-Learning Stripe SDKUITests.debug.xcconfig */,
+				1139CB313DAEECE62783F898 /* Pods-Learning Stripe SDKUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA2DBACC1D82477D00F143F9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				BA2DBAEF1D82477D00F143F9 /* Learning Stripe SDKTests */,
 				BA2DBAFA1D82477D00F143F9 /* Learning Stripe SDKUITests */,
 				BA2DBAD61D82477D00F143F9 /* Products */,
+				6232FBED57A4C44E98EB6B2F /* Pods */,
+				14E9142A2D1ECA824992CDD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 			children = (
 				BA2DBAD81D82477D00F143F9 /* AppDelegate.swift */,
 				BA2DBADA1D82477D00F143F9 /* ViewController.swift */,
+				BA2DBB0B1D82544F00F143F9 /* Secrets.swift */,
 				BA2DBADC1D82477D00F143F9 /* Main.storyboard */,
 				BA2DBAE21D82477D00F143F9 /* Assets.xcassets */,
 				BA2DBAE41D82477D00F143F9 /* LaunchScreen.storyboard */,
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA2DBB001D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDK" */;
 			buildPhases = (
+				D1E3CA4E43BA16E4CE0615F2 /* [CP] Check Pods Manifest.lock */,
 				BA2DBAD11D82477D00F143F9 /* Sources */,
 				BA2DBAD21D82477D00F143F9 /* Frameworks */,
 				BA2DBAD31D82477D00F143F9 /* Resources */,
+				F245E8EA7896CD303AB079CE /* [CP] Embed Pods Frameworks */,
+				0F3A70F87A13BEFE6285C62C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA2DBB031D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKTests" */;
 			buildPhases = (
+				323CB6668EC553F69F4C0619 /* [CP] Check Pods Manifest.lock */,
 				BA2DBAE81D82477D00F143F9 /* Sources */,
 				BA2DBAE91D82477D00F143F9 /* Frameworks */,
 				BA2DBAEA1D82477D00F143F9 /* Resources */,
+				CD9F52BDA9DA5ED2F433855C /* [CP] Embed Pods Frameworks */,
+				9EE6425711103DFABF28DB7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA2DBB061D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKUITests" */;
 			buildPhases = (
+				7178BA729C64C1753CE2164A /* [CP] Check Pods Manifest.lock */,
 				BA2DBAF31D82477D00F143F9 /* Sources */,
 				BA2DBAF41D82477D00F143F9 /* Frameworks */,
 				BA2DBAF51D82477D00F143F9 /* Resources */,
+				13BCD102523D2C75EBD07D2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +305,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F3A70F87A13BEFE6285C62C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learning Stripe SDK/Pods-Learning Stripe SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13BCD102523D2C75EBD07D2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learning Stripe SDKUITests/Pods-Learning Stripe SDKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323CB6668EC553F69F4C0619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7178BA729C64C1753CE2164A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE6425711103DFABF28DB7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learning Stripe SDKTests/Pods-Learning Stripe SDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD9F52BDA9DA5ED2F433855C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learning Stripe SDKTests/Pods-Learning Stripe SDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E3CA4E43BA16E4CE0615F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F245E8EA7896CD303AB079CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Learning Stripe SDK/Pods-Learning Stripe SDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA2DBAD11D82477D00F143F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA2DBADB1D82477D00F143F9 /* ViewController.swift in Sources */,
+				BA2DBB0C1D82544F00F143F9 /* Secrets.swift in Sources */,
 				BA2DBAE11D82477D00F143F9 /* Learning_Stripe_SDK.xcdatamodeld in Sources */,
 				BA2DBAD91D82477D00F143F9 /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +578,7 @@
 		};
 		BA2DBB011D82477D00F143F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34416AFED10447F3EA3069D /* Pods-Learning Stripe SDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Learning Stripe SDK/Info.plist";
@@ -414,6 +590,7 @@
 		};
 		BA2DBB021D82477D00F143F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA5FE5EA63E30896C379FA8 /* Pods-Learning Stripe SDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Learning Stripe SDK/Info.plist";
@@ -425,6 +602,7 @@
 		};
 		BA2DBB041D82477D00F143F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3613F3AB655C261007826416 /* Pods-Learning Stripe SDKTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Learning Stripe SDKTests/Info.plist";
@@ -437,6 +615,7 @@
 		};
 		BA2DBB051D82477D00F143F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A3D8F77F96BA1AA8CD235C /* Pods-Learning Stripe SDKTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Learning Stripe SDKTests/Info.plist";
@@ -449,6 +628,7 @@
 		};
 		BA2DBB071D82477D00F143F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EF470698AA1AA1B79E294A /* Pods-Learning Stripe SDKUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Learning Stripe SDKUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +640,7 @@
 		};
 		BA2DBB081D82477D00F143F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1139CB313DAEECE62783F898 /* Pods-Learning Stripe SDKUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Learning Stripe SDKUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +669,7 @@
 				BA2DBB021D82477D00F143F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA2DBB031D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +678,7 @@
 				BA2DBB051D82477D00F143F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA2DBB061D82477D00F143F9 /* Build configuration list for PBXNativeTarget "Learning Stripe SDKUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +687,7 @@
 				BA2DBB081D82477D00F143F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
