@@ -1,3 +1,3 @@
 # Learning-Stripe
 
-https://youtu.be/nKF9dcHIMTY
+See video of demo here: https://youtu.be/nKF9dcHIMTY
